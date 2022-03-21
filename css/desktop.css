@@ -1,0 +1,53 @@
+.card-container {
+    width: auto;
+    min-width: 104rem;
+    max-width: 144rem;
+    height:auto;
+    flex-direction: row;
+}
+
+.card-container__img {
+    width: 50%;
+    height: 100%;
+    background-image: url('../images/image-header-desktop.jpg');
+    order: 2;
+}
+
+.description-container {
+    width: 50%;
+    padding: 2rem 10rem;
+    order: 1;
+}
+
+.description-container__resume {
+    min-width: 80%;
+    text-align: left;
+}
+
+.description-container__resume h1 {
+    font-size: 4.5rem;
+}
+
+.description-container__resume p {
+    font-size: 1.8rem;
+    line-height: 3rem;
+}
+
+.description-container__stadistics div {
+    display: inline-block;
+    width: 32%;
+    margin-top: 2.5rem;
+}
+
+.description-container__stadistics div h2,
+.description-container__stadistics div p {
+    text-align: left;
+}
+
+.description-container__stadistics div h2 {
+    font-size: 3rem;
+}
+
+.description-container__stadistics div p {
+    font-size: 1.7rem;
+}
